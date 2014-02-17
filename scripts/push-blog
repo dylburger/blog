@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Push new blog post to s3, invalidate if necessary
+
+# If this is an existing post, we need to invalidate the file in Cloudfront, since the file already exists
